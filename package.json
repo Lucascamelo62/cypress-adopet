@@ -1,5 +1,6 @@
 {
   "devDependencies": {
+    "@faker-js/faker": "^9.8.0",
     "cypress": "^13.6.4"
   },
   "name": "cypress-adopet",
@@ -172,7 +173,8 @@
     "yauzl": "^2.10.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test:cypress": "cypress open"
   },
   "repository": {
     "type": "git",
